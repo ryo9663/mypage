@@ -1,0 +1,19 @@
+/* 表（テーブル）全体の設定 */
+table {
+    border-collapse: collapse; /* 隣り合う枠線を重ねる */
+    width: 100%;               /* 画面いっぱいに広げる */
+    margin-bottom: 2rem;
+}
+
+/* ヘッダーとセルの設定 */
+th, td {
+    border: 1px solid #333;    /* 1ピクセルの実線（濃いグレー）を引く */
+    padding: 12px;             /* 文字の周りに余白を作る */
+    text-align: center;        /* 文字を中央に寄せる */
+}
+
+/* ヘッダーだけ背景色をつける（お好みで） */
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}

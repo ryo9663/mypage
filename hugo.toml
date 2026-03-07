@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja-jp'
+title = 'Mypage'
+theme = "ananke"
+slug = "1st-year-review"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[server]
+ port = 2182546060396

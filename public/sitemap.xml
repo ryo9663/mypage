@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64859/posts/first-post/</loc>
+    <loc>http://localhost:1313/ryo9663/mypage/posts/first-post/</loc>
     <lastmod>2026-03-07T10:24:12+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64859/</loc>
+    <loc>http://localhost:1313/ryo9663/mypage/</loc>
     <lastmod>2026-03-07T10:24:12+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64859/posts/</loc>
+    <loc>http://localhost:1313/ryo9663/mypage/posts/</loc>
     <lastmod>2026-03-07T10:24:12+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64859/categories/</loc>
+    <loc>http://localhost:1313/ryo9663/mypage/categories/</loc>
   </url><url>
-    <loc>http://localhost:64859/tags/</loc>
+    <loc>http://localhost:1313/ryo9663/mypage/tags/</loc>
   </url>
 </urlset>

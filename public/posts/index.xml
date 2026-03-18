@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mypage</title>
-    <link>http://localhost:64859/posts/</link>
+    <link>http://localhost:1313/ryo9663/mypage/posts/</link>
     <description>Recent content in Posts on Mypage</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 07 Mar 2026 10:24:12 +0900</lastBuildDate>
-    <atom:link href="http://localhost:64859/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ryo9663/mypage/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>１年を振り返って</title>
-      <link>http://localhost:64859/posts/first-post/</link>
+      <title>１年生を振り返って</title>
+      <link>http://localhost:1313/ryo9663/mypage/posts/first-post/</link>
       <pubDate>Sat, 07 Mar 2026 10:24:12 +0900</pubDate>
-      <guid>http://localhost:64859/posts/first-post/</guid>
-      <description>&lt;style&gt;&#xA;  /* 1. 親要素のリセット（はみ出し防止） */&#xA;  article, .post-content, .nested-copy-line-height {&#xA;    max-width: 100% !important;&#xA;    padding: 0 !important;&#xA;    margin: 0 !important;&#xA;  }&#xA;&#xA;  /* 2. テーブル：横幅いっぱい・均等固定 */&#xA;  table {&#xA;    border-collapse: collapse !important;&#xA;    width: 100% !important;&#xA;    table-layout: fixed !important;&#xA;    margin: 1rem 0 !important;&#xA;    border: 2px solid #333 !important;&#xA;  }&#xA;&#xA;  /* 3. セル：【ここを修正】すべての文字を上下左右中央へ */&#xA;  td, th {&#xA;    padding: 0 !important;&#xA;    border: 1px solid #666 !important;&#xA;    height: 60px; /* 高さを少し出すと見やすいです */&#xA;    text-align: center !important;   /* 左右中央（通常文字用） */&#xA;    vertical-align: middle !important; /* 上下中央 */&#xA;  }&#xA;&#xA;  /* 4. 出席したコマ（attended）：セル全体を塗りつぶしつつ中央揃え */&#xA;  .attended {&#xA;    display: flex !important;&#xA;    align-items: center;    /* 上下中央 */&#xA;    justify-content: center; /* 左右中央 */&#xA;    width: 100% !important;&#xA;    height: 100% !important;&#xA;    background-color: #fff9c4 !important; /* 薄い黄色 */&#xA;    color: #333;&#xA;    margin: 0 !important;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;前期&#34;&gt;前期&lt;/h2&gt;&#xA;&lt;h3 id=&#34;時間割&#34;&gt;時間割&lt;/h3&gt;&#xA;&lt;p&gt;まず時間割です、出席があったものは色をつけています.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/ryo9663/mypage/posts/first-post/</guid>
+      <description>&lt;style&gt;&#xA;  /* 1. 親要素のリセット（はみ出し防止） */&#xA;  article, .post-content, .nested-copy-line-height {&#xA;    max-width: 900px !important;&#xA;    padding: 20px !important;&#xA;    margin: 0 !important;&#xA;  }&#xA;&#xA;  /* 2. テーブル：横幅いっぱい・均等固定 */&#xA;  table {&#xA;    border-collapse: collapse !important;&#xA;    width: 100% !important;&#xA;    table-layout: fixed !important;&#xA;    margin: 1rem 0 !important;&#xA;    border: 2px solid #333 !important;&#xA;  }&#xA;&#xA;  /* 3. セル：【ここを修正】すべての文字を上下左右中央へ */&#xA;  td, th {&#xA;    padding: 0 !important;&#xA;    border: 1px solid #666 !important;&#xA;    height: 80px; /* 高さを少し出すと見やすいです */&#xA;    text-align: center !important;   /* 左右中央（通常文字用） */&#xA;    vertical-align: middle !important; /* 上下中央 */&#xA;  }&#xA;&#xA;  /* 4. 出席したコマ（attended）：セル全体を塗りつぶしつつ中央揃え */&#xA;  .attended {&#xA;    display: flex !important;&#xA;    align-items: center;    /* 上下中央 */&#xA;    justify-content: center; /* 左右中央 */&#xA;    width: 100% !important;&#xA;    height: 100% !important;&#xA;    background-color: #fff9c4 !important; /* 薄い黄色 */&#xA;    color: #333;&#xA;    margin: 0 !important;&#xA;  }&#xA;&#xA;  /* 星評価のスタイル設定 */&#xA;  .review-table {&#xA;    max-width: 500px !important; /* 評価表は少しコンパクトに */&#xA;    margin: 20px auto !important;&#xA;    font-weight: bold;&#xA;  }&#xA;&#xA;  .stars {&#xA;    color: #ffca28; /* 黄色（★） */&#xA;    font-size: 1.4rem;&#xA;    letter-spacing: 4px;&#xA;    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);&#xA;  }&#xA;&#xA;  .star-gray {&#xA;    color: #e0e0e0 !important; /* 灰色（☆） */&#xA;    text-shadow: none;&#xA;  }&#xA;&#xA;  .review-label {&#xA;    background-color: #f5f5f5;&#xA;    width: 40%;&#xA;  }&#xA;  /* 星なし・コメントのみの場合のスタイル */&#xA;  .review-comment-only {&#xA;    color: #333;&#xA;    font-size: 1rem;&#xA;    font-weight: normal;&#xA;    /* 星がない分、少しだけ目立たせるなら */&#xA;    border-left: 3px solid #ffca28; /* 左側に黄色の線を添えるとお洒落 */&#xA;    padding-left: 10px;&#xA;  }&#xA;  html { scroll-behavior: smooth; }&#xA;&#xA;  /* ジャンプ先の見出しが隠れないよう隙間を作る */&#xA;  h4 { scroll-margin-top: 80px; }&#xA;&#xA;  /* 時間割の中のリンクを黒文字にする */&#xA;  td a {&#xA;    text-decoration: none !important;&#xA;    color: inherit !important;&#xA;    display: flex !important;&#xA;    align-items: center;&#xA;    justify-content: center;&#xA;    width: 100%;&#xA;    height: 100%;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;前期&#34;&gt;前期&lt;/h2&gt;&#xA;&lt;h3 id=&#34;時間割&#34;&gt;時間割&lt;/h3&gt;&#xA;&lt;p&gt;まず時間割です、出席があったものは色をつけています.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

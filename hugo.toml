@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/ryo9663/mypage'
+baseURL = 'https://ryo9663.github.io/mypage/'
 languageCode = 'ja-jp'
 title = 'Mypage'
 theme = "ananke"
